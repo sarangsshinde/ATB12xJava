@@ -6,7 +6,7 @@ public class Lab056_Interview_Short_Char {
     public static void main(String[] args) {
 
         short s = 10;
-        char c = 'A'; //65
+        char c = 'A'; //  Char is always integer value bydefault that's why  c + s = 75
 
         System.out.println(c + s);
     }
